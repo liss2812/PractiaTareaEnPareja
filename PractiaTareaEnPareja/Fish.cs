@@ -6,35 +6,42 @@ using System.Threading.Tasks;
 
 namespace PractiaTareaEnPareja
 {
-    class Fish:Animal
+    class Fish : Animal
     {
 
-        public int sizeFt { get; set; }
-
+        public int sizeInFt { get; set; }
+       
         //metodos
         public Boolean canEar { get; set; }
-        public string getInfo()
+        public string GetInfo()
         {
             var Ear = "";
             if (canEar == true)
             {
-               Ear = "El animal puede oir";
+                Ear = " puede oir";
             }
             else
             {
-                Ear = "El animal no puede oir";
+                Ear = "no puede oir";
             }
-            return " El animal tiene  " + animalAge + " años,  y  " + Ear;
+            return " El Pez " + Ear + " y mide " +   sizeInFt + " pies "  ;
         }
 
-            public string swim()
-            {
-                return "El animal esta nadando ";
+
+        public  string swim ()
+        {
+            return " El Pez esta nadando... ";
 
 
-            }
+        }
+        // metodod heredado
+        public override string mate()
+        {
+            return base.mate() + " El Pez es comapeñero  "  +  "  de los pulpos ";
         }
     }
+}
 
-    
+
+
 
