@@ -30,7 +30,7 @@ namespace PractiaTareaEnPareja
 
         public  string swim ()
         {
-            return " El Pez esta nadando... ";
+            return " El Pez esta nadando....... ";
 
 
         }
