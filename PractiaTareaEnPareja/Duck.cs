@@ -19,6 +19,13 @@ namespace PractiaTareaEnPareja
         {
             return "quak,quak";
         }
+        public string quack(string name, string owner)
+        {
+            return "El pato " + name +
+                " esta cominando cerca del corral de " + owner;
+        }
+
+
         // metodod heredado
         public override string mate()
         {

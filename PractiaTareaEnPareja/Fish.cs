@@ -34,6 +34,15 @@ namespace PractiaTareaEnPareja
 
 
         }
+
+        public string swin(string name, string owner)
+        {
+            return "El pez " + name +
+                " esta nadando cerca del pato que se llama " + owner;
+        }
+       
+        //Agrege esta otra parte pero no supe como ponerlo en pantalla Att: Fatima
+
         // metodod heredado
         public override string mate()
         {

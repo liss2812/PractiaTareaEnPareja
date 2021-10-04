@@ -22,6 +22,7 @@ namespace PractiaTareaEnPareja
         {
             return "El  Animal tiene  " + animalAge + "  años   y es de genero  " + animalGender   ;
         }
+
        
     }
     }

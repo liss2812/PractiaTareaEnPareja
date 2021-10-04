@@ -27,6 +27,13 @@ namespace PractiaTareaEnPareja
         {
             return "La Zebra esta corriendo" ;
         }
+
+        public string run(string name, string owner)
+        {
+            return "La Zebra se llama " + name +
+                " esta en el zoologico " + owner;
+        }
+
         // metodod heredado
         public override string mate()
         {
